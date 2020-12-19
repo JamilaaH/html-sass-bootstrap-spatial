@@ -15788,8 +15788,14 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-body {
-  font-family: 'raleway-regular';
+body .title {
+  font-family: 'raleway-bold';
+  text-transform: uppercase;
+}
+
+body .subtitle {
+  font-family: 'raleway-thin';
+  text-transform: uppercase;
 }
 
 body header {
@@ -15804,11 +15810,6 @@ body header .HomeContenu {
   align-items: center;
   flex-direction: column;
   color: white;
-}
-
-body header .subtitle {
-  font-family: 'raleway-thin';
-  text-transform: uppercase;
 }
 
 .about .title {
