@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'raleway-regular';
+  src: url("../font/Raleway-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'raleway-bold';
+  src: url("../font/Raleway-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: 'raleway-thin';
+  src: url("../font/Raleway-Thin.ttf");
+}
+
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -15773,21 +15788,35 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-header {
+body {
+  font-family: 'raleway-regular';
+}
+
+body header {
   background-image: url("../img/banner.jpg");
   background-size: cover;
   height: 500px;
 }
 
-header .navbar-nav {
-  color: blue;
-}
-
-header .HomeContenu {
+body header .HomeContenu {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 10% 0;
   color: white;
+}
+
+body header .subtitle {
+  font-family: 'raleway-thin';
+  text-transform: uppercase;
+}
+
+.about .title {
+  font-family: 'raleway-bold';
+  text-transform: uppercase;
+}
+
+.about .subtitle {
+  font-family: 'raleway-thin';
+  text-transform: uppercase;
 }
